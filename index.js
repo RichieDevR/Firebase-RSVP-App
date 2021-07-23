@@ -26,12 +26,8 @@ var guestbookListener = null;
 async function main() {
   // Add Firebase project configuration object here
   const firebaseConfig = {
-    apiKey: "AIzaSyBFFUXyCNS7d93t3Uu4mmmGoumQxODLcco",
-    authDomain: "fir-web-codelab-d4a21.firebaseapp.com",
-    projectId: "fir-web-codelab-d4a21",
-    storageBucket: "fir-web-codelab-d4a21.appspot.com",
-    messagingSenderId: "450071109528",
-    appId: "1:450071109528:web:f1a06f9e2eec5530bed5ed"
+   //firebaseconfig from yopur firebase project 
+   //on the dashboard goes here
   };
 
   // Make sure Firebase is initilized
@@ -43,9 +39,9 @@ async function main() {
   } catch (e) {
     console.log(e);
     document.getElementById("app").innerHTML =
-      "<h1>Welcome to the Codelab! Add your Firebase config object to <pre>/index.js</pre> and refresh to get started</h1>";
+      "<h1>Add your Firebase config object to <pre>/index.js</pre> sync with your firestore</h1>";
     throw new Error(
-      "Welcome to the Codelab! Add your Firebase config object from the Firebase Console to `/index.js` and refresh to get started"
+      "Add your Firebase config object from the Firebase Console to `/index.js` sync with firebase"
     );
   }
 
