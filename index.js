@@ -24,10 +24,14 @@ var rsvpListener = null;
 var guestbookListener = null;
 
 async function main() {
-  // Add Firebase project configuration object here
+  
   const firebaseConfig = {
-   //firebaseconfig from yopur firebase project 
-   //on the dashboard goes here
+    apiKey: "AIzaSyBFFUXyCNS7d93t3Uu4mmmGoumQxODLcco",
+    authDomain: "fir-web-codelab-d4a21.firebaseapp.com",
+    projectId: "fir-web-codelab-d4a21",
+    storageBucket: "fir-web-codelab-d4a21.appspot.com",
+    messagingSenderId: "450071109528",
+    appId: "1:450071109528:web:f1a06f9e2eec5530bed5ed"
   };
 
   // Make sure Firebase is initilized
