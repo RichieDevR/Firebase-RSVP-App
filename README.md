@@ -5,4 +5,3 @@ It stores user data such as emails user ID's message data as well as whether or 
 
 you can visit this application and test it out for yourself by going to  https://bit.ly/3iCh2Tk which will redirect you to the firebase hosted web app.
 
-If you would like me to create something like this for you please contact me at richie.rosario@protonmail.com
